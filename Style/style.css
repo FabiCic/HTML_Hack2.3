@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    
+ }
+ *::after,
+ *::before{ box-sizing: border-box;}
+
+
+main{
+    background-color: #93B5C9;
+    height: 200px;
+
+}
+nav{
+    background-color: #AB2849;
+    height: 300px;
+}
+div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+section{
+    background-color: #AB2849;
+    height: 175px;
+    width: 75%;
+    margin-top: 20px;
+    
+
+}
+footer{
+    background-color:#AB2849;
+    height: 150px;
+    margin-top: 20px;
+}
